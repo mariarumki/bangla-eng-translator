@@ -1,0 +1,106 @@
+body {
+background-color: #E9F2F2;
+}
+
+#reddit-icon {
+color: #0077B5;
+font-size: 80px;
+margin-top: 50px;
+}
+
+.container {
+text-align: center;
+}
+
+#subreddit-form {
+background-color: #F6D8AE;
+max-width: 500px;
+margin: 50px auto;
+padding: 30px;
+border-radius: 20px;
+border: 1px solid black;
+}
+
+#subreddit-form input {
+margin-bottom: 30px;
+}
+
+td,
+th {
+border: 2px solid #C0C0C0;
+text-align: left;
+padding: 8px;
+}
+
+th {
+background-color: #F0F0F0;
+}
+
+table {
+background-color: #F7F7F7;
+margin: 10px 0;
+max-width: 1000px;
+margin: 10px auto;
+margin-bottom: 25px;
+}
+
+#result-header {
+margin: 50px auto;
+background-color: #6D9EA1;
+max-width: 700px;
+border-radius: 20px;
+border: 1px solid black;
+padding: 5px;
+}
+
+.top-words-header {
+margin-top: 20px;
+}
+
+.postive-sentiment {
+background-color: #C2D4B4;
+}
+
+.negative-sentiment {
+background-color: #89353B;
+color: white;
+}
+
+#positive-words {
+background-color: #007681;
+max-width: 700px;
+margin: 0 auto;
+padding: 10px;
+border-radius: 10px;
+border: 1px solid black;
+}
+
+#positive-words div {
+display: inline-block;
+padding: 7px;
+border-radius: 10px;
+background-color: #7CA8A8;
+margin: 5px;
+}
+
+#negative-words {
+background-color: #7B435B;
+max-width: 700px;
+margin: 0 auto;
+margin-bottom: 25px;
+padding: 10px;
+border-radius: 10px;
+border: 1px solid black;
+}
+
+#negative-words div {
+display: inline-block;
+padding: 7px;
+border-radius: 10px;
+background-color: #DAA5AD;
+margin: 5px;
+}
+
+.return-button {
+margin-bottom: 20px;
+}
